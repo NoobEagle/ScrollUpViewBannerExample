@@ -1,0 +1,2 @@
+# ScrollUpViewBannerExample
+类似于广告一直在一个区域向上滚动的效果
