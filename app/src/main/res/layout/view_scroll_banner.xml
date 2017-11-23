@@ -23,20 +23,20 @@
         android:layout_toRightOf="@id/tv_title"
         android:background="#DDDDDD"/>
 
-    <TextView
+    <com.example.eagleweb.scrollupexample.CustomView
         android:id="@+id/tv_banner1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/view_divider"
         android:ellipsize="end"
         android:singleLine="true"
         android:text=""/>
 
-    <TextView
+    <com.example.eagleweb.scrollupexample.CustomView
         android:id="@+id/tv_banner2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/view_divider"
         android:ellipsize="end"

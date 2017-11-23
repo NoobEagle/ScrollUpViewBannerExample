@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:gravity="center|start"
+        android:text="求带走"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tv_nickname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜鹰**帅帅"
+        android:textColor="@color/colorAccent"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="被"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tv_nickname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜鹰**帅帅"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带走私聊"
+        android:textSize="12sp"/>
+
+</LinearLayout>
